@@ -1,8 +1,10 @@
 ---
+title: Visionary
+date: 2017-06-05 21:45:36 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "Old"
-date:   2017-06-04 17:45:36 -0400
-categories: jekyll update
 image: test.jpg
 ---
 
