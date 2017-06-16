@@ -10,7 +10,6 @@ layout: post
 
 {{ page.title }}
 
-| Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | Thing one |  left-aligned | $1600 |
 | thing two |    centered   |   $12 |
