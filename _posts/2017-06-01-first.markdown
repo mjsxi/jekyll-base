@@ -10,10 +10,10 @@ layout: post
 
 {{ page.title }}
 
-|----------|:-------------:|------:|
-| Thing one |  left-aligned | $1600 |
-| thing two |    centered   |   $12 |
-| thing three | right-aligned |    $1 |
+|----------|:-------------:|
+| Thing one |  left-aligned |
+| thing two |    centered   |
+| thing three | right-aligned |
 
 <img src="{{ site.baseurl }}/images/{{ page.image }}">
 
