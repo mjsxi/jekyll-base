@@ -8,8 +8,6 @@ image: test.jpg
 layout: post
 ---
 
-Test test test
-
 <div class="cat">
   <p>Test</p>
 </div>
