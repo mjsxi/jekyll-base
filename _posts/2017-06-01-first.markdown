@@ -11,9 +11,9 @@ layout: post
 {{ page.title }}
 
 |----------|:-------------:|
-| Thing one |  left-aligned |
-| thing two |    centered   |
-| thing three | right-aligned |
+| Thing one   |  left-aligned |
+| thing two   |    centered   |
+| thing three   | right-aligned |
 
 <img src="{{ site.baseurl }}/images/{{ page.image }}">
 
