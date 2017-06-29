@@ -7,7 +7,7 @@ layout: default
   {{ content }}
 
   <div>
-    {% for post in site.posts reversed %}
+  {% for post in site.posts reversed %}
       <div>
 
         <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}">
@@ -17,6 +17,21 @@ layout: default
         </h2> -->
 
         {{ post.content }}
+
+      </div>
+    {% endfor %}
+
+
+    {% for post in site.projects reversed %}
+      <div>
+
+        <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+
+        <!-- {{ post.content }} -->
 
       </div>
     {% endfor %}
