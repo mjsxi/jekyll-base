@@ -5,7 +5,7 @@ categories:
 - jekyll
 - update
 image: test.jpg
-layout: post
+layout: page
 ---
 
 {{ page.title }}
