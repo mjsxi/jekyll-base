@@ -2,28 +2,20 @@
 layout: default
 ---
 
-<div class="c-body">
+{{ content }}
 
-  <div class="body-container">
+{% for post in site.posts reversed %}
+  <div>
 
-    {{ content }}
+    <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
 
-    {% for post in site.posts reversed %}
-      <div>
+    <h2>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
 
-        <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-
-        {{ post.content }}
-
-      </div>
-    {% endfor %}
-
-    <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->
+    {{ post.content }}
 
   </div>
+{% endfor %}
 
-</div>
+<!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->

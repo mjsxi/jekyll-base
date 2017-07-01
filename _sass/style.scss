@@ -7,6 +7,9 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.25 !default;
 
+$link-color:       #969696 !default;
+$link-hover-color: #363636 !default;
+
 $text-color:       #c6c6c6 !default;
 $background-color: #ffffff !default;
 $brand-color:      #2a7ae2 !default;
@@ -20,6 +23,9 @@ $content-width:    1100px !default;
 
 // Media Query
 $large-screen:     768px !default;
+
+// Transition Duration
+$transition-time:  0.25s;
 
 @mixin media-query {
   @media screen and (max-width: $device) {
