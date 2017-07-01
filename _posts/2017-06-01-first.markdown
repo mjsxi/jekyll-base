@@ -10,9 +10,10 @@ layout: page
 
 {{ page.title }}
 
-|----------|:-------------:|
-| Thing one   |  left-aligned |
-| thing two   |    centered   |
+| Things        | Alignment     |
+|---------------|---------------|
+| Thing one     | left-aligned  |
+| thing two     | Centered      |
 | thing three   | right-aligned |
 
 <img src="{{ site.baseurl }}/images/{{ page.image }}">

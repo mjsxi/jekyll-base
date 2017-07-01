@@ -23,6 +23,45 @@ a {
   }
 }
 
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+
+  thead {
+    th {
+      background: $grey-color-light;
+    }
+  }
+
+  th {
+    padding: 12px 15px;
+  }
+
+  td {
+    padding: 10px 15px;
+    border-top: 1px solid $grey-color-light;
+  }
+
+  tr:hover {
+    td {
+      background: $grey-color-light;
+    }
+  }
+}
+
 %wrapper {
   max-width: $content-width;
 }
+
+
+
+
+
+
+
+
+
+
+
+
