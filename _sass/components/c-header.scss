@@ -1,0 +1,12 @@
+.c-header {
+  display: flex;
+  justify-content: center;
+
+  .header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    @extend %wrapper;
+  }
+}

@@ -1,0 +1,13 @@
+.c-body {
+  display: flex;
+  justify-content: center;
+
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+
+    @extend %wrapper;
+  }
+}

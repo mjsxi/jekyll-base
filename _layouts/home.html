@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<div class="home">
+<div class="c-body">
 
-  {{ content }}
+  <div class="body-container">
 
-  <div>
-  {% for post in site.posts reversed %}
+    {{ content }}
+
+    {% for post in site.posts reversed %}
       <div>
 
         <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
@@ -20,8 +21,9 @@ layout: default
 
       </div>
     {% endfor %}
-  </div>
 
-  <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->
+    <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->
+
+  </div>
 
 </div>
