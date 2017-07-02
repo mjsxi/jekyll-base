@@ -4,8 +4,8 @@ layout: default
 
 {{ content }}
 
-{% for post in site.projects %}
-  <div>
+{% for post in site.posts reversed %}
+  <div class="c-post">
 
     <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
 

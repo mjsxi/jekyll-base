@@ -22,13 +22,13 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $content-width:    1100px !default;
 
 // Media Query
-$large-screen:     768px !default;
+$large-screen:     1132px !default;
 
 // Transition Duration
 $transition-time:  0.25s;
 
 @mixin media-query {
-  @media screen and (max-width: $device) {
+  @media screen and (min-width: $large-screen) {
     @content;
   }
 }
