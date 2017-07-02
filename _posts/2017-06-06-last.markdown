@@ -1,5 +1,5 @@
 ---
-title: New
+title: Last
 date: 2017-06-06 21:45:00 Z
 categories:
 - jekyll
@@ -7,10 +7,6 @@ categories:
 image: test.jpg
 layout: page
 ---
-
-<div class="cat">
-  <p>Test</p>
-</div>
 
 <img src="{{ site.baseurl }}/images/{{ page.image }}">
 

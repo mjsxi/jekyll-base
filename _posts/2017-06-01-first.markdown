@@ -8,8 +8,6 @@ image: test.jpg
 layout: page
 ---
 
-{{ page.title }}
-
 | Things        | Alignment     |
 |---------------|---------------|
 | Thing one     | left-aligned  |
