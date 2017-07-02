@@ -8,11 +8,11 @@ image: test.jpg
 layout: page
 ---
 
-| Things        | Alignment     |
-|---------------|---------------|
-| Thing one     | left-aligned  |
-| thing two     | Centered      |
-| thing three   | right-aligned |
+| Things        | Alignment     | 3rd Row       |
+|---------------|---------------|---------------|
+| Thing one     | left-aligned  | Things        |
+| thing two     | Centered      | Things        |
+| thing three   | right-aligned | Things        |
 
 <img src="{{ site.baseurl }}/images/{{ page.image }}">
 
