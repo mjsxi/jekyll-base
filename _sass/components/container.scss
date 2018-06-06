@@ -1,0 +1,10 @@
+.container {
+  max-width: $content-width;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: .33%;
+
+  margin: 0 auto;
+  min-height: 100vh;
+}

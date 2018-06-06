@@ -388,3 +388,13 @@ template {
  */
 [hidden] {
   display: none; }
+
+.container {
+  max-width: 1100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: .33%;
+  margin: 0 auto;
+  min-height: 100vh; }
