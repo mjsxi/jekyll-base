@@ -1,0 +1,83 @@
+.vax-logo-main {
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 4;
+
+  padding: 20px;
+
+  @include media-query {
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 8;
+
+    align-self: center;
+    justify-self: center;
+
+    padding: 0px;
+  }
+}
+
+.voxmedia-logo {
+  visibility: hidden;
+
+  @include media-query {
+    visibility: visible;
+
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 8;
+
+    max-height: 21vh;
+
+    align-self: start;
+    justify-self: start;
+
+    margin-top: 48px;
+  }
+}
+
+.main-rsvp {
+  font-family: $base-font-family;
+  color: $secondary-color;
+  border: 3px solid $secondary-color;
+  padding: 13px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 4px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  align-self: end;
+  grid-column: 12 / span 1;
+  grid-row: 9 / span 2;
+
+  @include media-query {
+    font-size: 32px;
+    margin-right: 48px;
+    margin-bottom: 0px;
+
+    transform: rotate(90deg);
+    transform-origin: top right;
+
+    justify-self: end;
+
+    &:hover {
+      background: $secondary-color;
+      color: $bg-color;
+    }
+  }
+}
+
+.main-text {
+
+  @include media-query {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 32px;
+
+    margin-left: 48px;
+    margin-bottom: 48px;
+
+    grid-column: 1 / span 6;
+    grid-row: 9 / span 2;
+
+    align-self: end;
+  }
+}

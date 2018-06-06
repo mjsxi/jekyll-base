@@ -1,0 +1,30 @@
+.c-nav {
+  grid-column: 1 / span 12;
+  grid-row: 7 / span 3;
+  display: flex;
+  flex-direction: column;
+
+  @include media-query {
+    grid-column: 10 / span 3;
+    grid-row: 1 / span 10;
+
+    margin-top: 48px;
+    margin-right: 48px;
+  }
+
+  a {
+    color: $main-color;
+    text-decoration: none;
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 18px;
+    align-self: flex-end;
+    padding: 5px;
+
+    &:hover {
+      background: $secondary-color;
+      color: $bg-color;
+    }
+  }
+}

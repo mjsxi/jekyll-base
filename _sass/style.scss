@@ -2,33 +2,24 @@
 
 // Defaults variables
 
-$heading-font-family: 'Sofia Pro', serif !default;
+$heading-font-family: 'sackers', serif !default;
 $heading-font-size:    64px !default;
 $heading-font-weight:  900 !default;
 $heading-line-height:  1.35 !default;
 
-$base-font-family:     'Apercu Mono', monospace !default;
+$base-font-family:     'akkurat', !default;
 $base-font-size:       1rem !default;
 $base-font-weight:     400 !default;
 $base-line-height:     1.75 !default;
 
-$accent-font-family:   'Apercu Mono', monospace !default;
+$accent-font-family:   'notera', !default;
 $accent-font-size:     0.9rem !default;
 $accent-font-weight:   400 !default;
 $accent-line-height:   1.75 !default;
 
-$link-color:          #69CDED !default;
-$link-hover-color:    #E381EB !default;
-
-$text-color:          #848484 !default;
-$text-color-dark:     #4f4f4f !default;
-
-$background-color:    #FFFCF6 !default;
-$footer-color:        #F5F1E8 !default;
-
-$grey-color:          #828282 !default;
-$grey-color-light:    #f2f2f2 !default;
-$grey-color-dark:     darken($grey-color, 25%) !default;
+$bg-color:           #231F20 !default;
+$secondary-color:    #E75130 !default;
+$main-color:         #FFF0D9 !default;
 
 // Page Width
 $content-width:       1100px !default;
@@ -49,5 +40,7 @@ $transition-time:     0.25s;
 @import
   "normalize",
   "base",
-  "components/container"
+  "unique-styles",
+  "components/container",
+  "components/c-nav"
 ;
